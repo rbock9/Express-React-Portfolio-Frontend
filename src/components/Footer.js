@@ -1,6 +1,6 @@
 
 function Footer(props) {
-    return <h1>Footer</h1>;
+    return <div>Copyright Rob Bock - <span>{new Date().getFullYear()}</span></div>;
 }
   
 export default Footer;
